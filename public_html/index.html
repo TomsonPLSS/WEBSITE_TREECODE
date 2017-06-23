@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #main{
+                width: 1200px;
+                height: 1000px;
+                margin:auto;
+                background-color: lightgray;
+            }
+            li{
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: auto;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                cursor: pointer;
+                float:left;
+                border: 10px solid black;
+                display: inline;
+                font-size: 20px;
+            }
+            li:hover{
+                background-color: #000000;
+
+            }
+            #logo{
+                float:left;
+                margin-top:20px;
+                margin-left:20px;
+                height:200px;
+            }
+            #nav{
+                height:700px;}
+
+            hr{
+               padding-top: 200px;
+                border-top: 3px solid #000000;
+            }
+
+
+            .smooth{
+                float:none;
+                display:block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="nav">
+                <img id="logo" src="logo.jpg" alt="logo">
+                <ul>
+                    <li><a href="#about">About</a></li> 
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Somtetgnig</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <hr>
+            </div>  <!-- nav-->
+
+            <div id="page1">
+                <a id="about" class="smooth"></a>
+                About page content goes here.
+            </div>
+
+            <div id="page2">
+                <a id="portfolio" class="smooth"></a>
+                Portfolio page content goes here.
+            </div>
+
+            <div id="page3">
+                <a id="contact" class="smooth"></a>
+                Contact page content goes here.
+            </div>
+        </div> <!--main-->
+    </body>
+</html>
